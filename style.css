@@ -1,0 +1,285 @@
+/* リセットCSS */
+* {
+ margin: 0;
+ padding: 0;
+ }
+ li {
+    list-style-type: none;
+  }
+
+  table {
+    border-collapse: collapse; 
+    border-spacing: 0; 
+   }
+
+img {
+  display: block; 
+}
+ a {
+    text-decoration: none;
+ }
+ body {
+   font-family: "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "MS Pゴシック", "MS PGothic", sans-serif;
+ }
+ /* ヘッダー部分 */
+ header {
+  background-color: #FFDAED;
+ }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+ }
+
+ #headerTop {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 128px;
+ }
+ .logo {
+  float: left;
+  margin-top: 4px;
+ }
+ .tel {
+  float: right;
+  margin-top: 18px;
+ }
+ #gNavi {
+  clear: both;
+ }
+ #gNavi ul {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+ }
+ #gNavi ul li {
+  float: left;
+ }
+
+ /* メイン部分 */
+#mainPhoto {
+  max-width: 100%;
+  height: 673px;
+  position: relative;
+  margin: auto;
+  background-image: url(images/mailL.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 -160px;
+}
+
+#mainH2 {
+  position: absolute;
+  width: 520px;
+  /* height: 159px; */
+  top: 390px;
+  left: 880px;
+  font-size: 64px;
+  font-weight: bold;
+  color: #100444;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.7); 
+}
+
+.line-break {
+  display: block;
+}
+
+
+/* リンク画像01 */
+.banner-link1 {
+  position: absolute;
+  top: 24px;       
+  left: 1205px;   
+  width: 178px;   
+  height: 91px;
+}
+
+.banner-link1 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* リンク画像02 */
+.banner-link2 {
+  position: absolute;
+  top: 141px;      
+  left: 1205px;    
+  width: 178px;    
+  height: 91px;
+}
+
+.banner-link2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#introduction {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#introduction h3 {
+  text-align: center;
+  margin-top: 92px;
+  margin-bottom: 70px;
+  color: #8E1D07;
+  font-size: 32px;
+}  
+
+.pink {
+  width: 530px;
+  height: 530px;
+  background-color: #FFDAED;
+  border-radius: 15%;
+  position: relative;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.yellow {
+  width: 530px;
+  height: 530px;
+  /* padding: 100px 20px; */
+  background-color: #FBFFAF;
+  border-radius: 15%;
+  background-image: url(images/tulipLine.png), url(images/tulipLine.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: center 5px, center 480px;
+  background-size: auto, auto;
+}
+
+#twin {
+  width: 475px;
+  height: 479px;
+  margin: auto;
+
+  background-image: url(images/twins.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -85px center;
+  border-radius: 15%;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#top .yellow p {
+  color: #8E1D07;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 530px;
+  height: 530px;
+  text-indent: 1em;
+}
+
+#Newinfo {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#Newinfo h4 {
+  text-align: center;
+  margin-top: 92px;
+  margin-bottom: 70px;
+  color: #8E1D07;
+  font-size: 32px;
+}  
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#bottom p {
+  font-size: 24px;
+  color: #8E1D07;
+  text-align: center;
+  padding-top: 60px;
+
+}
+
+#table {
+  font-size: 20px;
+  color: #8E1D07;
+  width: 400px;
+  height: 200px;
+  margin-left: 98px;
+  margin-top: 100px;
+}
+
+#menu {
+  width: 460px;
+  height: 389px;
+  margin: auto;
+
+  background-image: url(images/menu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+
+  position: absolute;
+  top: 93px;
+  left: 35px;
+}
+
+#footer {
+  max-width: 100%;
+  /* height: auto; */
+  background-color: #FFDAED;
+  overflow: hidden;
+}
+
+#footerNavi {
+  width: 1130px;
+  height: 180px;
+  margin: 0 200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  grid-template-rows: repeat(3, auto);
+  /* gap: 50px 65px; */
+  padding: 60px 0;
+}
+
+#footerNavi li {
+  display: flex;
+  align-items: center;
+}
+
+#footerNavi li a {
+  color: #8E1D07;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+#footerBottom {
+  width: 847px;
+  height: 320px;
+  margin: 0 350px;
+}
+
