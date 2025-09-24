@@ -31,9 +31,13 @@
 
 ## ファイル構成
 project-root/
+
 │
+
 ├─ index.html ← メインHTMLファイル
+
 ├─ style.css ← サイト用CSS
+
 └─ images/ ← 使用画像フォルダ
 
 コードをコピーする
