@@ -35,19 +35,13 @@ project-root/
 ├─ index.html ← メインHTMLファイル
 ├─ style.css ← サイト用CSS
 └─ images/ ← 使用画像フォルダ
-├─ Logo.png
-├─ tel.png
-├─ banner01.png
-├─ banner02.png
-└─ gnav01.png … gnav06.png
 
 コードをコピーする
 
 ## 注意点
 - このHTMLはHTML5で作成されています。
 - 現在JavaScriptは使用していません（メニューやアニメーションはCSSのみ）。
-- 画像のパスは `images/` フォルダに格納する必要があります。
-- 将来的にレスポンシブ対応やJavaScriptによる動的表示を追加することが可能です。
+
 
 ## ライセンス
 このプロジェクトは個人学習用に作成されたもので、商用利用は想定していません。
